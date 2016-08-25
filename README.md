@@ -8,17 +8,17 @@ Here is full documentation: https://github.com/adcpm/steem/tree/master/doc
 ```html 
 <script src="./steem.min.js"></script>
 <script>
-steem.getAccounts(['ned', 'dan'], function(err, response){
+steem.api.getAccounts(['ned', 'dan'], function(err, response){
     console.log(err, response);
 });
 </script>
 ```
 
 ## CDN 
-http://cdn.steemjs.com/lib/steem.min.js<br/>
-https://cdn.steemjs.com/lib/steem.min.js<br/>
+http://cdn.steemjs.com/lib/lastest/steem.min.js<br/>
+https://cdn.steemjs.com/lib/lastest/steem.min.js<br/>
 ```html 
-<script src="//cdn.steemjs.com/lib/steem.min.js"></script>
+<script src="//cdn.steemjs.com/lib/lastest/steem.min.js"></script>
 ```
 
 ## Server
@@ -28,7 +28,7 @@ $ npm install steem --save
 ```
 
 ## WebSockets
-wss://steemit.com/wspa By @steemit (Set By Default)<br/>
+wss://steemit.com/wspa By Default<br/>
 wss://node.steem.ws<br/>
 wss://this.piston.rocks<br/>
 
